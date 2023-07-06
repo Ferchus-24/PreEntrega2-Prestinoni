@@ -29,6 +29,10 @@ p {
     text-align: center;
 }
 
+a:visited{
+    color: rgb(126, 123, 123);
+}
+
 header {
     background-color: rgb(165, 15, 15);
     padding-top: 5px;
@@ -51,8 +55,6 @@ ul {
     ul li a {
         text-decoration: none;
     }
-
-
 .text-center {
     text-align: center;
 }
@@ -128,6 +130,27 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(165, 15, 15);
+    padding: 5px;
+    margin: 10px;
+}
+    .links ol li a{
+        text-decoration: none;
+    }
+
+.actAcade{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(250, 214, 214);
+    align-items: center;
+    padding: 5px;
+    margin: 10px;
 }
 
 .courses {
