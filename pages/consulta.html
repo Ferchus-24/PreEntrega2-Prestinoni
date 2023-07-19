@@ -49,53 +49,61 @@
         <section class="container">
             <h1>Horarios de consulta</h1>
             <h2>Sede</h2>
-            <select name="Sede" id="sede">
-                <option value="central">Sede Central</option>
-                <option value="sanrafael">Sede San Rafael</option>
-            </select>
+            <select class="form-select mb-3" aria-label="Default select example">
+                <option value="1">Central</option>
+                <option value="2">San Rafafel</option>
+                <option value="3">Junín</option>
+              </select>
             <h2>Carrera</h2>
-            <select name="Carrera" id="carrera">
-                <option value="cp">Contador Público</option>
-                <option value="la">Lic. en Administración</option>
-                <option value="economia">Lic. en Economía</option>
-            </select>
+            <select class="form-select mb-3" aria-label="Default select example">
+                <option value="1">Contador Público</option>
+                <option value="2">Lic. en Administración</option>
+                <option value="3">Economía</option>
+              </select>
             <h2>Materia</h2>
-            <select name="Materia" id="materia">
-                <option value="materia1">Materia1</option>
-                <option value="materia2">Materia2</option>
-                <option value="materia3">Materia3</option>
-                <option value="materia4">Materia4</option>
-                <option value="materia5">Materia5</option>
-                <option value="materia6">Materia6</option>
-                <option value="materia7">Materia7</option>
-                <option value="materia8">Materia8</option>
-            </select>
-            <table>
-                <tr>
-                    <th></th>
-                    <th>8 - 9</th>
-                    <th>9 - 10</th>
-                    <th>10 - 11</th>
-                    <th>11 - 12</th>
-                    <th>12 - 13</th>
-                </tr>
-                <tr>
-                    <th>Profesor 1</th>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <th>Profesor 2</th>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </table>
+            <select class="form-select mb-3" aria-label="Default select example">
+                <option value="1">Matemática I</option>
+                <option value="2">TIC</option>
+                <option value="3">Inglés</option>
+                <option value="4">Intro. a Economía</option>
+                <option value="5">Estadística</option>
+                <option value="6">Derecho Público</option>
+                <option value="7">Administración</option>
+              </select>
+            <table class="table mt-4">
+                <thead>
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col">8 a 9.30</th>
+                    <th scope="col">9.30 a 11</th>
+                    <th scope="col">11 a 12.30</th>
+                    <th scope="col">12.30 a 14</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Profesor 1</th>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>..</td>
+                    <td>.x.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Profesor 2</th>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Profesor 3</th>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>.x.</td>
+                    <td>...</td>
+                  </tr>
+                </tbody>
+              </table>
         </section>
     </main>
     <footer>

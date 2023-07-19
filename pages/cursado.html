@@ -50,58 +50,71 @@
         <section class="container">
             <h1>Horarios de cursado</h1>
             <h2>Sede</h2>
-            <select name="Sede" id="sede">
-                <option value="central">Sede Central</option>
-                <option value="sanrafael">Sede San Rafael</option>
-            </select>
+            <select class="form-select mb-3" aria-label="Default select example">
+                <option value="1">Central</option>
+                <option value="2">San Rafafel</option>
+                <option value="3">Junín</option>
+              </select>
             <h2>Carrera</h2>
-            <select name="Carrera" id="carrera">
-                <option value="cp">Contador Público</option>
-                <option value="la">Lic. en Administración</option>
-                <option value="economia">Lic. en Economía</option>
-            </select>
+            <select class="form-select mb-3" aria-label="Default select example">
+                <option value="1">Contador Público</option>
+                <option value="2">Lic. en Administración</option>
+                <option value="3">Economía</option>
+              </select>
             <h2>Año</h2>
-            <select name="year" id="year">
-                <option value="primero">1er Año</option>
-                <option value="segundo">2do Año</option>
-                <option value="tercero">3er Año</option>
-                <option value="cuarto">4to Año</option>
-                <option value="quinto">5to Año</option>
-            </select>
-            <table>
-                <tr>
-                    <th></th>
-                    <th>Lunes</th>
-                    <th>Martes</th>
-                    <th>Miércoles</th>
-                    <th>Jueves</th>
-                    <th>Viernes</th>
-                </tr>
-                <tr>
-                    <th>8 - 10</th>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <th>10 - 12</th>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <th>12 - 14</th>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </table>
+            <select class="form-select mb-3" aria-label="Default select example">
+                <option value="1">1er Año</option>
+                <option value="2">2do Año</option>
+                <option value="3">3er Año</option>
+                <option value="4">4to Año</option>
+                <option value="5">5to Año</option>
+              </select>
+            <table class="table mt-4">
+                <thead>
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Lunes</th>
+                    <th scope="col">Martes</th>
+                    <th scope="col">Miércoles</th>
+                    <th scope="col">Jueves</th>
+                    <th scope="col">Viernes</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row"> 8 a 9.30</th>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10 a 11.40</th>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">11.45 a 12.30</th>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">12.35 a 13.20</th>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                  </tr>
+                </tbody>
+              </table>
         </section>
     </main>
     <footer>
