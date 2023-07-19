@@ -5,8 +5,7 @@
     }
     svg {
         fill: $whiteColor;
-        width: 16px;
-        height: 16px;
+        @include sizes(16px, 16px);
     }
 }
 
@@ -29,7 +28,6 @@ footer {
         }
     }           
     svg {
-        color: $whiteColor;
         width: 30px;
         height: 30px;
         padding-top: 5px;
