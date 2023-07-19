@@ -1,0 +1,78 @@
+.courses {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+        "tittle tittle tittle tittle"
+        "course1 course2 course2 course5"
+        "course1 course3 course4 course5"
+        "course1 course3 course4 course5";
+    gap: 5px;
+    margin: 2px;
+
+    figure {
+        img {
+            width: 100%;
+        }
+        figcaption {
+            margin: 5px;
+            font-size: 1.2em;
+            text-align: center;
+            font-weight: bold;
+            color: rgb(51, 51, 51);
+        }    
+        p {
+            margin-bottom: 5px;
+            color: rgb(51, 51, 51);
+            width: 70%;
+        }
+    }
+    .coursesTittle {
+        grid-area: tittle;
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+    }
+    .course1 {
+        grid-area: course1;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 5px;
+        width: 100%;
+        margin: 0;
+    }
+    .course2 {
+        grid-area: course2;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+         padding: 5px;
+        margin: 0;
+        width: 100%;
+    }
+    .course3 {
+        grid-area: course3;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 5px;
+        width: 100%;
+        margin: 0;
+    }
+    .course4 {
+        grid-area: course4;
+        @extend .course3;
+    }
+    .course5 {
+        grid-area: course5;
+        @extend .course1;
+    }
+}

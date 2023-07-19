@@ -1,0 +1,126 @@
+* {
+    font-family: $mainFont;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4 {
+    color: $greyColor;
+}
+
+h1 {
+    font-size: $textLg;
+}
+
+h2 {
+    font-size: $textMd;
+}
+
+h3 {
+    font-size: $textSm;
+}
+
+p {
+    font-size: $textSm;
+    line-height: 1.3em;
+    color: $greyColor;
+    text-align: center;
+}
+
+a:visited{
+    color: rgb(126, 123, 123);
+}
+
+header {
+    background-color: $mainColor;
+    padding-top: 5px;
+    img {
+        padding-left: 5px;
+        padding-bottom: 5px;
+    }
+}
+
+#imgLogo {
+    height: 3em;
+    width: auto;
+}
+
+ul {
+    list-style: none;
+     a {
+        text-decoration: none;
+    }
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.mainImage {
+    width: 100%;
+}
+
+.bgLight {
+    background-color: $secondaryColor;
+}
+
+.news {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 5px;
+    padding: 10px;
+    width: auto;
+ }
+    .container ul li{
+        align-items: center;
+    } 
+
+.infoAcade {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: $mainColor;
+    padding: 5px;
+    margin: 10px;
+}
+    .links ol li a{
+        text-decoration: none;
+    }
+
+.actAcade{
+    display: flex;
+    flex-direction: column;
+    background-color: $secondaryColor;
+    align-items: center;
+    padding: 5px;
+    margin: 10px;
+}
+
+.buttons {
+    background: rgb(171, 142, 142);
+    font-size: $textXsm;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 3px;
+    border: none;
+    &:hover {
+        background: rgb(178, 120, 120);
+        cursor: pointer;
+    }
+}
