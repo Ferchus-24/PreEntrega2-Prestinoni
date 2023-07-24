@@ -74,7 +74,7 @@ ul a {
   flex-wrap: nowrap;
 }
 
-.container {
+.containers {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -82,9 +82,16 @@ ul a {
   padding: 10px;
   width: auto;
 }
-
-.container ul li {
+.containers ul li {
   align-items: center;
+}
+
+.timeTable1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+  background-color: rgb(250, 214, 214);
 }
 
 .infoAcade {
