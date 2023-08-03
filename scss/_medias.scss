@@ -28,3 +28,9 @@
         margin: 2px;
     }
 }
+@media (width < 500px) {
+    .pageNot img {
+        width: 60%;
+    }
+
+}
