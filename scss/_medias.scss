@@ -13,6 +13,27 @@
         }
     }
 
+    .selectHour{
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+    }
+
+    .timeTable{
+        width: 15%;
+    }
+
+    .infoAcade{
+        img{
+            display: none;
+        }
+    }
+
+    
+    .containerLinks{
+        flex-direction: column;
+    }
+   
     .courses {
         display: grid;
         grid-template-columns: repeat(2, 1fr);

@@ -93,12 +93,37 @@ ul a {
   padding-top: 40px;
 }
 
-.timeTable1 {
+.selectHour {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.selectHour h2 {
+  text-align: center;
+}
+
+.selectHour2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 30px;
-  background-color: rgb(212, 106, 106);
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.selectHour2 h2 {
+  text-align: center;
+}
+
+.timeTable {
+  text-align: center;
+  width: 30%;
+  filter: drop-shadow(5px 5px 5px rgb(85, 0, 0));
+}
+
+.marginTop {
+  margin-top: 20px;
 }
 
 .infoAcade {
@@ -106,6 +131,9 @@ ul a {
   flex-direction: column;
   align-items: center;
   margin-top: 20px;
+}
+.infoAcade img {
+  filter: drop-shadow(5px 5px 5px rgb(85, 0, 0));
 }
 
 .containerLinks {
@@ -123,12 +151,8 @@ ul a {
   margin-top: 40px;
   border-radius: 4px;
 }
-.containerLinks .links1 ol li, .containerLinks .links2 ol li, .containerLinks .links3 ol li {
+.containerLinks .links1 ul li, .containerLinks .links2 ul li, .containerLinks .links3 ul li {
   padding-top: 20px;
-  list-style-type: disc;
-}
-.containerLinks .links1 ol li a, .containerLinks .links2 ol li a, .containerLinks .links3 ol li a {
-  text-decoration: none;
 }
 
 .actAcade {
@@ -174,6 +198,7 @@ ul a {
 .pageNot img {
   margin-top: 20px;
   margin-bottom: 20px;
+  filter: drop-shadow(5px 5px 10px rgb(85, 0, 0));
 }
 
 .botonera {
@@ -307,6 +332,20 @@ footer svg {
   .contact iframe {
     width: 300px;
     height: 200px;
+  }
+  .selectHour {
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+  }
+  .timeTable {
+    width: 15%;
+  }
+  .infoAcade img {
+    display: none;
+  }
+  .containerLinks {
+    flex-direction: column;
   }
   .courses {
     display: grid;
