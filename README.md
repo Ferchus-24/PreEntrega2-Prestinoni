@@ -1,2 +1,3 @@
-# PreEntrega2-Prestinoni
-Este proyecto se realiza para la Facultad de Ciencias Económicas, los usuarios principales son los alumnos de la institución.
+# Portal de Alumnos 
+Este sitio está dirigido a los alumnos de la Facultad de Ciencias Económicas de la Universidad de Cuyo.
+

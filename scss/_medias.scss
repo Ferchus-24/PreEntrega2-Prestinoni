@@ -2,6 +2,21 @@
     .news {
         flex-direction: column;
         align-items: center;
+        h1{
+            font-size: $textMd;
+        }
+    }
+
+    .containers{
+    h2{
+        font-size: $textSm;
+    }
+    ul {
+        li{
+            align-items: center;
+            padding-top: 20px;
+        }
+    } 
     }
 
     .contact{
@@ -29,7 +44,7 @@
         }
     }
 
-    
+
     .containerLinks{
         flex-direction: column;
     }
