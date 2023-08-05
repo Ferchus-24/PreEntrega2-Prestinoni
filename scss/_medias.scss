@@ -31,12 +31,13 @@
     .selectHour{
         flex-direction: column;
         align-items: center;
-        width: 50%;
+    }
+    .tableContainer{
+        flex-wrap: wrap;
+        align-content: flex-start;
+    
     }
 
-    .timeTable{
-        width: 15%;
-    }
 
     .infoAcade{
         img{

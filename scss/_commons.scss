@@ -115,7 +115,14 @@ ul {
     }
 }
 
+.tableContainer{
+    display: flex;
+    flex-direction: column
+}
+
 .timeTable{
+    display: flex;
+    flex-direction: row;
     text-align: center;
     width: 30%;
     filter: drop-shadow(5px 5px 5px $darkColor); 
