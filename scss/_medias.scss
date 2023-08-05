@@ -29,15 +29,15 @@
     }
 
     .selectHour{
+        flex-wrap: wrap;
         flex-direction: column;
-        align-items: center;
+        align-content: flex-start;
     }
     .tableContainer{
         flex-wrap: wrap;
         align-content: flex-start;
     
     }
-
 
     .infoAcade{
         img{

@@ -123,6 +123,7 @@ ul {
 .timeTable{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     text-align: center;
     width: 30%;
     filter: drop-shadow(5px 5px 5px $darkColor); 
