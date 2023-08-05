@@ -126,7 +126,7 @@ ul a {
   flex-direction: row;
   justify-content: center;
   text-align: center;
-  width: 30%;
+  width: 50%;
   filter: drop-shadow(5px 5px 5px rgb(85, 0, 0));
 }
 
