@@ -115,6 +115,12 @@ ul {
     }
 }
 
+.selectBorder:focus{
+    border: 1px solid $lightColor;
+    outline: none;
+    box-shadow: none !important;
+}
+
 .tableContainer{
     display: flex;
     flex-direction: column
